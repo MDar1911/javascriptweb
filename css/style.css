@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/index.jpg");
+}
+.div1{
+	margin:7em auto 0;
+	width: 30%;
+}
+.div2 {
+	position:relative;
+	background: #fff;
+	padding: 2em 2em;
+	border-radius: 0.3em;
+	/* 兼容性代码 */
+	-webkit-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+}
+.div3 {
+	
+	margin:1em auto 0;
+	padding-bottom:2em; 
+}
+form span {
+	display: block;
+	font-size: 1em;
+	color: #787878;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+input[type=text],input[type=password] {
+	padding: 9px;
+	width: 90%;
+	font-size: 1.1em;
+	margin: 18px 0px;
+	border: 2px solid#EAEEF1;
+	color: #666666;
+	background:#EAEEF1;	
+	margin-left: 5px;
+	/* 兼容性代码 */
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+input[type=text]:hover,input[type=password]:hover{
+	background:#fff;
+	border:2px solid #609EC3;
+	outline:none;
+}
+input[type="button"]{
+	float: left;
+	background: #F06B37;
+	border: none;
+	outline: none;
+	padding: 0.55em 1.3em 0.6em;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 0.9em;
+	border-radius: 1.3em;
+	-webkit-border-radius: 1.3em;
+	-moz-border-radius: 1.3em;
+	-o-border-radius: 1.3em;
+	font-weight: 600;
+}
+
+input[type="button"]:hover{
+	background:#62A0C4;
+}
+
+.register {
+	float: right;
+	color:#898888;
+	font-size: 0.95em;
+	margin-top: 13px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-weight: 600;
+
+	
+}
+}
